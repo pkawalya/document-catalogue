@@ -1,0 +1,6 @@
+      invoke  active_record
+      create    db/migrate/20200124110159_create_rooms.rb
+      create    app/models/room.rb
+      invoke    test_unit
+      create      test/models/room_test.rb
+      create      test/fixtures/rooms.yml
